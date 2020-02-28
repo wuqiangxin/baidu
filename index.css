@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*头部*/
+#header{
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 1px;
+}
+#header a{
+    margin: 0px 15px 0px 0px;
+}
+
+#header a.more-product{
+    display: inline-block;
+    color: white;
+    background-color: rgb(51, 136, 255);
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 20px;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+/*主要内容*/
+#content{
+    text-align: center;
+}
+#content .logo img{
+    width: 270px;
+    height: 129px;
+    margin: 15px auto 0px;
+}
+#content .search {
+    width: 600px;
+    height: 40px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+#content .search input{
+    width: 500px;
+    height: 40px;
+    padding: 9px 7px;
+    border: solid rgb(204, 204, 204) 1px;
+    margin: 0px;
+    /*向外扩展*/
+    box-sizing: border-box;
+}
+/*焦点*/
+#content .search input:focus{
+    outline: none;
+    border: solid 1px rgb(51, 136, 255);
+}
+#content .search a {
+    display: inline-block;
+    color: white;
+    background-color: rgb(51, 136, 255);
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+}
+/*鼠标放上去的时候*/
+#content .search a:hover {
+    background-color: rgba(51, 136, 255, 0.7);
+}
+#content .dom img {
+    width: 150px;
+    height: 100px;
+    margin: 5px 10px;
+}
+/*鼠标放上去的时候*/
+#content .dom img:hover{
+    /*设置不透明度*/
+    opacity: 0.7;
+}
+/*尾部*/
+#footer{
+    margin-top: 120px;
+    text-align: center;
+}
+#footer p{
+    margin-top: 5px
+}
+#footer p.footer-top{
+    margin: 0px 5px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
